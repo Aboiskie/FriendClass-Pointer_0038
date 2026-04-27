@@ -36,4 +36,7 @@ public:
         cout << "Keliling Layang-Layang: " << keliling() << endl;
     }
 
-   
+    // friend function dari class BelahKetupat
+    friend float hitungKelilingBelahKetupat(BelahKetupat b);
+};
+
