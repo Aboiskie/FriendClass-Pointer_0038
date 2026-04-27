@@ -40,3 +40,8 @@ public:
     friend float hitungKelilingBelahKetupat(BelahKetupat b);
 };
 
+class BelahKetupat {
+private:
+    float d1, d2;
+    float sisi;
+
