@@ -70,3 +70,8 @@ public:
     friend float hitungKelilingBelahKetupat(BelahKetupat b);
 };
 
+// implementasi friend function
+float hitungKelilingBelahKetupat(BelahKetupat b) {
+    return 4 * b.sisi;
+}
+
