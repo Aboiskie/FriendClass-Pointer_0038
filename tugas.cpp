@@ -66,4 +66,7 @@ public:
              << hitungKelilingBelahKetupat(*this) << endl;
     }
 
-    
+    // friend function
+    friend float hitungKelilingBelahKetupat(BelahKetupat b);
+};
+
