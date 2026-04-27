@@ -75,3 +75,8 @@ float hitungKelilingBelahKetupat(BelahKetupat b) {
     return 4 * b.sisi;
 }
 
+int main() {
+    LayangLayang l;
+    BelahKetupat b;
+
+    
